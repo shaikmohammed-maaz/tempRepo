@@ -1,13 +1,13 @@
 {
+  "homepage": "http://shaikmohammed-maaz.github.io/tempRepo",
   "name": "react-essentials-start",
   "version": "0.0.0",
-  "homepage": "https://nithyasriarjava.github.io/RTS",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
